@@ -1,36 +1,60 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Whiteboard App
 
-## Getting Started
+## 📌 Project Title
+A Whiteboard
 
-First, run the development server:
+## 📝 Description
+A Whiteboard is a simple, interactive whiteboard application built with React and TypeScript.  
+It allows users to draw, drag, and manage shapes (rectangle, circle, triangle) with support for zooming, context menus, keyboard shortcuts, and saving the canvas as an image.  
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+The app is designed as a lightweight brainstorming or diagramming tool.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## ⚙️ Technologies Used
+- **React + TypeScript** (frontend framework)
+- **TailwindCSS** (styling)
+- **uuid** (unique shape IDs)
+- **react-icons** (icons for toolbar and menus)
+- **html-to-image** (export canvas to PNG)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 🌟 Features
+- Add shapes (rectangle, circle, triangle) via toolbar or keyboard shortcuts.
+- Drag & resize shapes on canvas.
+- Change shape color via context menu.
+- Zoom in / out with keyboard or toolbar buttons.
+- Copy, cut, and paste shapes with keyboard shortcuts.
+- Delete selected shape with `Del` key.
+- Save canvas as PNG image (`Ctrl + S`).
+- Information card with keyboard shortcuts (toggleable).
+- App info card (title + description).
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🚀 Setup Instructions
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/your-username/a-whiteboard.git
+   cd a-whiteboard
+2. Install dependencies
+   ```bash
+   npm install
+4. Run the development server
+   ```bash
+   npm run dev
+6. Open in browser
+   ```bash
+   http://localhost:3000
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 🤖 AI Support Explanation
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+This project was developed with the help of AI for:
+- Code generation (React components, hooks, shortcut handling).
+- Adding features like save-to-PNG, context menus, and keyboard bindings.
+- Debugging issues (clipboard handling, package typings, etc.).
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+The AI served as a coding assistant, while the logic, integration, and testing were handled manually.
